@@ -1258,3 +1258,81 @@ body.dark-theme .container_skils .skill-box .skill-title .img  {
 .skill-icon {
   width: 50px;
 }
+@media  screen and (max-width: 700px) {
+  .container_skils {
+    grid-template-columns: repeat(2, 1fr);
+    /* Réduire le nombre de colonnes à 2 pour les appareils mobiles */
+    padding: 2rem 15px;
+    /* Réduire l'espacement des côtés */
+  }
+  .skill-box {
+    margin-right: 0; /* Supprimer la marge à droite pour mieux s'adapter aux appareils mobiles */
+  }
+
+  .img {
+    width: 50px; /* Réduire la taille de l'icône de compétence */
+    height: 50px;
+  }
+
+  .skill-title h3 {
+    font-size: 14px; /* Réduire la taille de la police pour une meilleure lisibilité sur les appareils mobiles */
+    margin-top: 5px;
+     /* Réduire l'espacement entre l'icône et le titre */
+  }
+  .skill-title  {
+    width: 150px;
+  }
+  .skill-icon {
+    width: 40px;
+  }
+}
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+  .container_skils {
+    grid-template-columns: repeat(3, 1fr);
+    /* Réduire le nombre de colonnes à 2 pour les appareils mobiles */
+    padding: 2rem 15px;
+    /* Réduire l'espacement des côtés */
+  }
+  .skill-box {
+    margin-right: 0; /* Supprimer la marge à droite pour mieux s'adapter aux appareils mobiles */
+  }
+
+  .img {
+    width: 50px; /* Réduire la taille de l'icône de compétence */
+    height: 50px;
+  }
+
+  .skill-title h3 {
+    font-size: 14px; /* Réduire la taille de la police pour une meilleure lisibilité sur les appareils mobiles */
+    margin-top: 5px;
+     /* Réduire l'espacement entre l'icône et le titre */
+  }
+  .skill-title  {
+    width: 150px;
+  }
+  .skill-icon {
+    width: 40px;
+  }
+}
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+  .skill-box {
+    margin-right: 0; /* Supprimer la marge à droite pour mieux s'adapter aux appareils mobiles */
+  }
+
+  .img {
+    width: 60px; /* Réduire la taille de l'icône de compétence */
+    height: 60px;
+  }
+
+  .skill-title h3 {
+    font-size: 14px; /* Réduire la taille de la police pour une meilleure lisibilité sur les appareils mobiles */
+    margin-top: 5px;
+     /* Réduire l'espacement entre l'icône et le titre */
+  }
+  .skill-title  {
+    width: 150px;
+  }
+  .skill-icon {
+    width: 50px;
+  } 
+}
