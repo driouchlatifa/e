@@ -190,7 +190,9 @@ img {
 .nav__logo {
   color: var(--second-color);
 }
-
+.nav__toggle {
+  order: 1; /* Move the icon to the beginning (right side) of the flex container */
+}
 .nav__toggle {
   color: var(--second-color);
   font-size: 1.5rem;
@@ -240,6 +242,12 @@ img {
 .theme-switcher > .switcher-btn > i {
   margin-right: 1px;
   color: white;
+}
+/* For mobile devices with a maximum width of 767px */
+@media only screen and (max-width: 767px) {
+  .theme-switcher-container span {
+    display: none; /* Hide the text inside the span */
+  }
 }
 
 /*Active menu*/
